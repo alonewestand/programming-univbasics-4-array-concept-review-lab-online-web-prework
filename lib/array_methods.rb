@@ -1,8 +1,7 @@
 def find_element_index(array, value_to_find)
     numbers = [1, 2, 3, 4, 5]
     length = numbers.length
-        return value_to_find.index
-    end
+    numbers.index(value_to_find)
 end
 
 def find_max_value(array)
